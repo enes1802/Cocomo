@@ -1,3 +1,4 @@
+# encoding: utf-8
 #include<iostream>
 using namespace std;
 #include<locale.h>
@@ -12,67 +13,67 @@ main()
 	float in,t,ss,k;
 	double A=2.4,B=1.05,C=2.5,D=0.38;
 
-	cout<<"Ölçüm Parametresi";
+	cout<<"Ã–lÃ§Ã¼m Parametresi";
 	cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
-	cout<<"Kullanıcı girdi sayısı için";cout<<"\n";
-	cout<<"Sayı"<<"\t";cin>>say[0];
-	cout<<"Yalın"<<"\t";cin>>yal[0];
+	cout<<"KullanÃ½cÃ½ girdi sayÃ½sÃ½ iÃ§in";cout<<"\n";
+	cout<<"SayÃ½"<<"\t";cin>>say[0];
+	cout<<"YalÃ½n"<<"\t";cin>>yal[0];
 	cout<<"Orta"<<"\t";cin>>ort[0];
-	cout<<"Karmaşık"<<"\t";cin>>kar[0];
+	cout<<"KarmaÃ¾Ã½k"<<"\t";cin>>kar[0];
 cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";	
-	cout<<"Kullanıcı çıktı sayısı için";cout<<"\n";
-	cout<<"Sayı"<<"\t";cin>>say[1];
-	cout<<"Yalın"<<"\t";cin>>yal[1];
+	cout<<"KullanÃ½cÃ½ Ã§Ã½ktÃ½ sayÃ½sÃ½ iÃ§in";cout<<"\n";
+	cout<<"SayÃ½"<<"\t";cin>>say[1];
+	cout<<"YalÃ½n"<<"\t";cin>>yal[1];
 	cout<<"Orta"<<"\t";cin>>ort[1];
-	cout<<"Karmaşık"<<"\t";cin>>kar[1];
+	cout<<"KarmaÃ¾Ã½k"<<"\t";cin>>kar[1];
 cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
-	cout<<"Kullanıcı sorgu sayısı için";cout<<"\n";
-	cout<<"Sayı"<<"\t";cin>>say[2];
-	cout<<"Yalın"<<"\t";cin>>yal[2];
+	cout<<"KullanÃ½cÃ½ sorgu sayÃ½sÃ½ iÃ§in";cout<<"\n";
+	cout<<"SayÃ½"<<"\t";cin>>say[2];
+	cout<<"YalÃ½n"<<"\t";cin>>yal[2];
 	cout<<"Orta"<<"\t";cin>>ort[2];
-	cout<<"Karmaşık"<<"\t";cin>>kar[2];
+	cout<<"KarmaÃ¾Ã½k"<<"\t";cin>>kar[2];
 cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
-cout<<"Kütük için";cout<<"\n";
-	cout<<"Sayı"<<"\t";cin>>say[3];
-	cout<<"Yalın"<<"\t";cin>>yal[3];
+cout<<"KÃ¼tÃ¼k iÃ§in";cout<<"\n";
+	cout<<"SayÃ½"<<"\t";cin>>say[3];
+	cout<<"YalÃ½n"<<"\t";cin>>yal[3];
 	cout<<"Orta"<<"\t";cin>>ort[3];
-	cout<<"Karmaşık"<<"\t";cin>>kar[3];
+	cout<<"KarmaÃ¾Ã½k"<<"\t";cin>>kar[3];
 cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
-cout<<"Dışsal arayüz sayısı için";cout<<"\n";
-	cout<<"Sayı"<<"\t";cin>>say[4];
-	cout<<"Yalın"<<"\t";cin>>yal[4];
+cout<<"DÃ½Ã¾sal arayÃ¼z sayÃ½sÃ½ iÃ§in";cout<<"\n";
+	cout<<"SayÃ½"<<"\t";cin>>say[4];
+	cout<<"YalÃ½n"<<"\t";cin>>yal[4];
 	cout<<"Orta"<<"\t";cin>>ort[4];
-	cout<<"Karmaşık"<<"\t";cin>>kar[4];
+	cout<<"KarmaÃ¾Ã½k"<<"\t";cin>>kar[4];
 cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
 
 	system("cls");
 
 	
-		cout<<"Ölçüm Parametresi"<<"\t"<<"|"<<"\t"<<"sayı"<<"\t  "<<"|"<<"\t  "<<"Ağırlık Faktörü";
+		cout<<"Ã–lÃ§Ã¼m Parametresi"<<"\t"<<"|"<<"\t"<<"sayÃ½"<<"\t  "<<"|"<<"\t  "<<"AÃ°Ã½rlÃ½k FaktÃ¶rÃ¼";
 cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
-    	cout<<"\t\t\t"<<"|"<<"\t\t  "<<"|"<<"\t"<<"yalın"<<"   "<<"|"<<"   "<<"orta"<<"   "<<"|"<<"   "<<"karmaşık";
+    	cout<<"\t\t\t"<<"|"<<"\t\t  "<<"|"<<"\t"<<"yalÃ½n"<<"   "<<"|"<<"   "<<"orta"<<"   "<<"|"<<"   "<<"karmaÃ¾Ã½k";
 cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
-		cout<<"Kullanıcı girdi sayısı"<<"\t"<<"|"<<"\t"<<say[0]<<"\t  "<<"|"<<"    "<<yal[0]<<"   "<<"|"<<"     "<<ort[0]<<"      "<<"|"<<kar[0];
+		cout<<"KullanÃ½cÃ½ girdi sayÃ½sÃ½"<<"\t"<<"|"<<"\t"<<say[0]<<"\t  "<<"|"<<"    "<<yal[0]<<"   "<<"|"<<"     "<<ort[0]<<"      "<<"|"<<kar[0];
 cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
-		cout<<"Kullanıcı çıktı sayısı"<<"\t"<<"|"<<"\t"<<say[1]<<"\t  "<<"|"<<"    "<<yal[1]<<"   "<<"|"<<"     "<<ort[1]<<"      "<<"|"<<kar[1];
+		cout<<"KullanÃ½cÃ½ Ã§Ã½ktÃ½ sayÃ½sÃ½"<<"\t"<<"|"<<"\t"<<say[1]<<"\t  "<<"|"<<"    "<<yal[1]<<"   "<<"|"<<"     "<<ort[1]<<"      "<<"|"<<kar[1];
 cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
-		cout<<"Kullanıcı sorgu sayısı"<<"\t"<<"|"<<"\t"<<say[2]<<"\t  "<<"|"<<"    "<<yal[2]<<"   "<<"|"<<"     "<<ort[2]<<"      "<<"|"<<kar[2];
+		cout<<"KullanÃ½cÃ½ sorgu sayÃ½sÃ½"<<"\t"<<"|"<<"\t"<<say[2]<<"\t  "<<"|"<<"    "<<yal[2]<<"   "<<"|"<<"     "<<ort[2]<<"      "<<"|"<<kar[2];
 cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
-		cout<<"Kütük sayısı          "<<"\t"<<"|"<<"\t"<<say[3]<<"\t  "<<"|"<<"    "<<yal[3]<<"   "<<"|"<<"     "<<ort[3]<<"      "<<"|"<<kar[3];
+		cout<<"KÃ¼tÃ¼k sayÃ½sÃ½          "<<"\t"<<"|"<<"\t"<<say[3]<<"\t  "<<"|"<<"    "<<yal[3]<<"   "<<"|"<<"     "<<ort[3]<<"      "<<"|"<<kar[3];
 cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
-		cout<<"Dışsal arayüz sayısı"<<"\t"<<"|"<<"\t"<<say[4]<<"\t  "<<"|"<<"     "<<yal[4]<<"   "<<"|"<<"     "<<ort[4]<<"      "<<"|"<<kar[4];
+		cout<<"DÃ½Ã¾sal arayÃ¼z sayÃ½sÃ½"<<"\t"<<"|"<<"\t"<<say[4]<<"\t  "<<"|"<<"     "<<yal[4]<<"   "<<"|"<<"     "<<ort[4]<<"      "<<"|"<<kar[4];
 cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
 
@@ -86,28 +87,28 @@ cout<<"\n";
 		b[i]=say[i]*yal[i];
 		ain+=b[i];
 	}
-	cout<<"AİN = "<<ain;
+	cout<<"AÃN = "<<ain;
 	
 cout<<"\n\n";
 
 		
-	cout<<"Değerlendirme";
+	cout<<"DeÃ°erlendirme";
 	cout<<"\n";
 cout<<"-----------------";cout<<"\n";
-cout<<"0 = hiçbir etkisi yok 	1 = çok az etkisi var		2 = etkisi var" ;cout<<"\n";
-cout<<"3 = ortalama ektisi var 	4 = önemli etkisi var 		5 = mutlaka olmalı";
+cout<<"0 = hiÃ§bir etkisi yok 	1 = Ã§ok az etkisi var		2 = etkisi var" ;cout<<"\n";
+cout<<"3 = ortalama ektisi var 	4 = Ã¶nemli etkisi var 		5 = mutlaka olmalÃ½";
 cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
-	cout<<"1.Uygulama,güvenilir yedekleme ve kurtarma gerektiriyor mu? "<<"  =>";cin>>a[0];
-	cout<<"2.Veri iletişimi gerekiyor mu? "<<"  =>";cin>>a[1];
-	cout<<"3.Dağıtık işlem işlevleri var mı? "<<"  =>";cin>>a[2];
+	cout<<"1.Uygulama,gÃ¼venilir yedekleme ve kurtarma gerektiriyor mu? "<<"  =>";cin>>a[0];
+	cout<<"2.Veri iletiÃ¾imi gerekiyor mu? "<<"  =>";cin>>a[1];
+	cout<<"3.DaÃ°Ã½tÃ½k iÃ¾lem iÃ¾levleri var mÃ½? "<<"  =>";cin>>a[2];
 	cout<<"4.Perfonmans kritik mi?"<<"  =>";cin>>a[3];
-	cout<<"5.İçsel işlemler karışık mı ? "<<"  =>";cin>>a[4];
-	cout<<"6.Sistem, çevrim içi veri girişi gerektiriyor mu ? "<<"  =>";cin>>a[5];
-	cout<<"7.Ana kültür çevrimiçi olarak mı güncelleniyor ?  "<<"  =>";cin>>a[6];
-	cout<<"8.Tasarlanacak kod, yeniden kullanılabilir mi olacak ?"<<"  =>";cin>>a[7];
-	cout<<"9.Sistem birden çok yerde yerleşik farklı kurumlar için mi geliştiriliyor ? "<<"=>";cin>>a[8];
-	cout<<"10.Sistem mevcut ve ağır yüklü olan bir işletim ortamında mı çalışacak ?  "<<"  =>";cin>>a[9];
+	cout<<"5.ÃÃ§sel iÃ¾lemler karÃ½Ã¾Ã½k mÃ½ ? "<<"  =>";cin>>a[4];
+	cout<<"6.Sistem, Ã§evrim iÃ§i veri giriÃ¾i gerektiriyor mu ? "<<"  =>";cin>>a[5];
+	cout<<"7.Ana kÃ¼ltÃ¼r Ã§evrimiÃ§i olarak mÃ½ gÃ¼ncelleniyor ?  "<<"  =>";cin>>a[6];
+	cout<<"8.Tasarlanacak kod, yeniden kullanÃ½labilir mi olacak ?"<<"  =>";cin>>a[7];
+	cout<<"9.Sistem birden Ã§ok yerde yerleÃ¾ik farklÃ½ kurumlar iÃ§in mi geliÃ¾tiriliyor ? "<<"=>";cin>>a[8];
+	cout<<"10.Sistem mevcut ve aÃ°Ã½r yÃ¼klÃ¼ olan bir iÃ¾letim ortamÃ½nda mÃ½ Ã§alÃ½Ã¾acak ?  "<<"  =>";cin>>a[9];
 	cout<<"\n";
 cout<<"--------------------------------------------------------------------------------";
 	tkf=a[0]+a[1]+a[2]+a[3]+a[4]+a[5]+a[6]+a[7]+a[8]+a[9];
@@ -116,17 +117,17 @@ cout<<"-------------------------------------------------------------------------
 	cout<<"\n\n";
 	
 	in=ain*(0.65*0.01*tkf)	;
-	cout<<"İN = "<<in ;
+	cout<<"ÃN = "<<in ;
 	cout<<"\n\n";
-	cout<<"HANGİ DİLLE YAZDINIZ ?";	cout<<"\n";
+	cout<<"HANGÃ DÃLLE YAZDINIZ ?";	cout<<"\n";
 	cout<<"------------------------";	cout<<"\n";
 	cout<<"1-COBOL  (105)";	cout<<"\n";
 	cout<<"2-PASCAL  (90)";cout<<"\n";
 	cout<<"3-DERLEME (320)";cout<<"\n";
-	cout<<"4-NESNE TABANLI DİLLER (30)";cout<<"\n";
-	cout<<"5-KOD ÜRETİCİLER (15)";cout<<"\n";
+	cout<<"4-NESNE TABANLI DÃLLER (30)";cout<<"\n";
+	cout<<"5-KOD ÃœRETÃCÃLER (15)";cout<<"\n";
 	cout<<"-----------------";cout<<"\n";
-	cout<<"SEÇENEK =>";cin>>dil;
+	cout<<"SEÃ‡ENEK =>";cin>>dil;
 	
 	switch(dil)
 	{
@@ -139,10 +140,10 @@ cout<<"-------------------------------------------------------------------------
 	cout<<"\n\n";
 	cout<<"SATIR SAYISI = "<<ss;
 	cout<<"\n";
-	cout<<"AYRIK PROJE İÇİN ;";
+	cout<<"AYRIK PROJE ÃÃ‡ÃN ;";
 	cout<<"\n";
 	k=A*(pow(ss,B));
-	cout<<"İŞ GÜCÜ = "<<k; cout<<"\n";
+	cout<<"ÃÃ GÃœCÃœ = "<<k; cout<<"\n";
 	t=C*(pow(k,D));
 	cout<<"ZAMAN =	"<<t;	
 	cout<<"\n";
